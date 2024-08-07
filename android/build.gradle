@@ -24,6 +24,8 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 34
 
+    namespace 'com.hemanthraj.fluttercompass'
+
     defaultConfig {
         minSdkVersion 20
         targetSdkVersion 34
